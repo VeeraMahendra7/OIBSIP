@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./Casio.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="box">
+            <h3>CASIO</h3>
+            <input type="text" maxlength="10" placeholder="0" id="inputValue"/>
+            <button onclick="Clear()" class="cl">CE</button>
+            <button onclick="fun('%')" style="color: tomato;">%</button>
+            <button onclick="Empty()" style="color: tomato;">DEL</button>
+            <button onclick="fun('/')" id="div" >/</button>
+            <button onclick="fun('7')">7</button>
+            <button onclick="fun('8')">8</button>
+            <button onclick="fun('9')">9</button>
+            <button onclick="fun('*' )" style="color: tomato;">x</button>
+            <button onclick="fun('4')">4</button>
+            <button onclick="fun('5')">5</button>
+            <button onclick="fun('6')">6</button>
+            <button onclick="fun('+')" style="color: tomato;">+</button>
+            <button onclick="fun('1')">1</button>
+            <button onclick="fun('2')">2</button>
+            <button onclick="fun('3')">3</button>
+            <button onclick="fun('-')" style="color: tomato;">-</button>
+            <button onclick="fun('00')" style="border-bottom-left-radius: 15px;">00</button>
+            <button onclick="fun('0')">0</button>
+            <button onclick="fun('.')">.</button>
+            <button onclick="Cal()" class="btn">=</button>
+        </div>
+    </div>
+    <script src="Cal.js"></script>
+</body>
+</html>

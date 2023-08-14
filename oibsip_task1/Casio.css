@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lobster+Two:ital@1&family=Poppins:wght@300&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    height: 100vh;
+    /* background-color: #3F979B; */
+    background-color: rgb(241, 226, 205);
+    background-size: cover;
+}
+.main-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container .box{
+    background-color: skyblue;    
+    padding: 10px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(4,69px);
+
+}
+.main-container .box h3{
+    font-family: sans-serif;
+    text-align: center;
+}
+input {
+    grid-column: span 4;
+    height: 60px;
+    width: 260px;
+    box-shadow: inset -5px -5px 10px #fff,
+                inset 5px 5px 10px rgba(0,0,0,.20);
+    border: none;
+    outline: none;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 27px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: end;
+}
+button{
+    height: 45px;
+    width: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(251, 249, 249);
+    box-shadow: -5px -5px 10px transparent,
+                    5px 5px 10px rgba(0,0,0,0.20);
+    border-radius: 10%;
+    border: none;
+    margin: 7px;
+    cursor: pointer;
+}
+.main-container .box .cl{
+    border-top-left-radius: 15px;
+    color: tomato;
+}
+.main-container .box #div{
+    border-top-right-radius: 15px;
+    font-size: 15px;
+    color: tomato;
+}
+.main-container .box .btn{
+    border-bottom-right-radius: 15px;
+    color: tomato;
+}
